@@ -2,7 +2,7 @@
 
 use App\Http\Controllers\MypageController;
 use App\Http\Controllers\MenuController;
-use App\Http\Controllers\ColumnController;
+use App\Http\Controllers\BlogController;
 use App\Http\Controllers\TextbookController;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ProfileController;
@@ -12,7 +12,7 @@ Route::get('/mypage',[MypageController::class,'mypage'])->name('mypage');
 
 Route::get('/menu',[MenuController::class,'menu'])->name('menu');
 
-Route::get('/column',[ColumnController::class,'column'])->name('column');
+Route::get('/blog',[BlogController::class,'blog'])->name('blog');
 
 Route::get('/textbook',[TextbookController::class,'textbook'])->name('textbook');
 
